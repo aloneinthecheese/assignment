@@ -13,7 +13,7 @@ class Feeder:
         'https://a831bqiv1d.execute-api.eu-west-1.amazonaws.com/dev/results'
     RABBITMQ_HOST = 'candidatemq.n2g-dev.net'
     RABBITMQ_USERNAME = 'cand_x54e'
-    RABBITMQ_PASSWORD = 'yoVFkPewBfu2Mmgf'
+    RABBITMQ_PASSWORD = ''
     RABBITMQ_EXCHANGE = 'cand_x54e'
     RABBITMQ_VHOST = '/'
     LOOP_RATE = 10
