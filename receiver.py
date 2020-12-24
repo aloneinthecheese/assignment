@@ -18,14 +18,14 @@ from mysql.connector import Error, errorcode
 class Receiver:
     RABBITMQ_HOST = 'candidatemq.n2g-dev.net'
     RABBITMQ_USERNAME = 'cand_x54e'
-    RABBITMQ_PASSWORD = 'yoVFkPewBfu2Mmgf'
+    RABBITMQ_PASSWORD = ''
     RABBITMQ_EXCHANGE = 'cand_x54e'
     RABBITMQ_VHOST = '/'
     RABBITMQ_QUEUE = 'cand_x54e_results'
     LOOP_RATE = 10
     DB_HOST = 'candidaterds.n2g-dev.net'
     DB_USERNAME = 'cand_x54e'
-    DB_PASSWORD = 'yoVFkPewBfu2Mmgf'
+    DB_PASSWORD = ''
     DB_NAME = 'cand_x54e'
 
 
